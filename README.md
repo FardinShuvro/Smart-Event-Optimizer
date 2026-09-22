@@ -1,6 +1,6 @@
 # Smart Event Budget & Resource Optimization System
 
-Algorithm Lab Project — C++
+Project Language — C++
 
 ## Project Overview
 
