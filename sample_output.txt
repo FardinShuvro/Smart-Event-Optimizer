@@ -1,0 +1,183 @@
+========================================
+   SMART EVENT BUDGET & RESOURCE
+        OPTIMIZATION SYSTEM
+========================================
+
+Current Budget: 80000
+Selected Venue: Not selected
+Selected Catering: Not selected
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: 
+AVAILABLE EVENT SERVICES
+----------------------------------------------------------------------------------------
+ID   Service                     Category               Price    Rating   Utility
+----------------------------------------------------------------------------------------
+1    Royal Convention Hall       Venue                  30000       4.7        10
+2    City Community Center       Venue                  18000       4.2         7
+3    Premium Catering            Catering               25000       4.8        10
+4    Standard Catering           Catering               15000       4.3         7
+5    Professional Photography    Photography            20000       4.9         9
+6    Premium Decoration          Decoration             18000       4.7         8
+7    Professional Sound          Sound                  12000       4.6         8
+8    Luxury Transport            Transport              10000       4.5         7
+9    Live Music                  Entertainment          18000       4.8         9
+10   LED Screen                  Visual                 15000       4.5         7
+11   Event Security              Security                7000       4.3         6
+12   Premium Invitation          Invitation              5000       4.2         4
+13   Photo Booth                 Photo Booth             9000       4.7         6
+14   Stage Lighting              Lighting                9000       4.4         6
+15   Backup Generator            Power Backup            8000       4.5         7
+16   Event Staff                 Staffing                6000       4.2         5
+17   Floral Arrangement          Floral                  7000       4.4         5
+18   Guest Transportation        Shuttle                11000       4.3         7
+19   Social Media Coverage       Media                   6000       4.6         6
+20   Event Insurance             Insurance               5000       4.5         6
+----------------------------------------------------------------------------------------
+
+Current Budget: 80000
+Selected Venue: Not selected
+Selected Catering: Not selected
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: 
+AVAILABLE VENUES
+----------------------------------------------------------------------------------------
+ID   Service                     Category               Price    Rating   Utility
+----------------------------------------------------------------------------------------
+1    Royal Convention Hall       Venue                  30000       4.7        10
+2    City Community Center       Venue                  18000       4.2         7
+----------------------------------------------------------------------------------------
+Enter the ID of your chosen Venue: 
+AVAILABLE CATERING PACKAGES
+----------------------------------------------------------------------------------------
+ID   Service                     Category               Price    Rating   Utility
+----------------------------------------------------------------------------------------
+3    Premium Catering            Catering               25000       4.8        10
+4    Standard Catering           Catering               15000       4.3         7
+----------------------------------------------------------------------------------------
+Enter the ID of your chosen Catering: 
+Core event configuration updated.
+
+Current Budget: 80000
+Selected Venue: City Community Center
+Selected Catering: Standard Catering
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: Enter your event budget: Budget updated successfully.
+
+Current Budget: 80000
+Selected Venue: City Community Center
+Selected Catering: Standard Catering
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: 
+========================================
+        OPTIMAL EVENT RESOURCE PLAN
+========================================
+
+CORE SERVICES
+----------------------------------------------------------------------------------------
+ID   Service                     Category               Price    Rating   Utility
+----------------------------------------------------------------------------------------
+2    City Community Center       Venue                  18000       4.2         7
+4    Standard Catering           Catering               15000       4.3         7
+----------------------------------------------------------------------------------------
+
+OPTIONAL SERVICES SELECTED BY 0/1 KNAPSACK
+----------------------------------------------------------------------------------------
+ID   Service                     Category               Price    Rating   Utility
+----------------------------------------------------------------------------------------
+8    Luxury Transport            Transport              10000       4.5         7
+11   Event Security              Security                7000       4.3         6
+12   Premium Invitation          Invitation              5000       4.2         4
+15   Backup Generator            Power Backup            8000       4.5         7
+16   Event Staff                 Staffing                6000       4.2         5
+19   Social Media Coverage       Media                   6000       4.6         6
+20   Event Insurance             Insurance               5000       4.5         6
+----------------------------------------------------------------------------------------
+Total Event Budget       : 80000
+Core Service Cost        : 33000
+Optional Service Cost    : 47000
+Total Event Cost         : 80000
+Remaining Budget         : 0
+Total Utility            : 55
+----------------------------------------------------------------------------------------
+
+The 0/1 Knapsack selected each optional resource at most once to maximize total utility within the remaining budget.
+
+Current Budget: 80000
+Selected Venue: City Community Center
+Selected Catering: Standard Catering
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: 
+========================================
+       SORTING ALGORITHM COMPARISON
+========================================
+Dataset     Bubble (us)       Selection (us)    Merge (us)        
+------------------------------------------------------------------
+10          0                 0                 5                 
+50          13                26                14                
+100         53                28                31                
+500         1367              958               167               
+1000        5837              4017              366               
+2000        24083             11555             886               
+------------------------------------------------------------------
+Times are measured on the current computer and may vary.
+
+Current Budget: 80000
+Selected Venue: City Community Center
+Selected Catering: Standard Catering
+
+1. Display All Services
+2. Sort Services
+3. Search Service
+4. Set Event Budget
+5. Configure Venue & Catering
+6. Optimize Event Plan (0/1 Knapsack)
+7. Compare Sorting Algorithms
+8. Exit
+
+Enter your choice: 
+Thank you for using Smart Event Optimizer!
